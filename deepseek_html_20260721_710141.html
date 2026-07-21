@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>GLIDEFIND — майнкрафт сервер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <!-- ГЛАВНЫЙ ЭКРАН -->
+        <header class="hero">
+            <div class="hero-center">
+                <h1>GLIDEFIND</h1>
+                <div class="slogan">✦ небесный грид · донат-премиум ✦</div>
+                <div class="hero-buttons">
+                    <a href="https://discord.gg/ENjyMhEpc" target="_blank" class="btn-play">▶ Играть</a>
+                    <a href="https://www.youtube.com/@md1eath" target="_blank" class="btn-youtube">▶ YouTube</a>
+                </div>
+            </div>
+            <div class="hero-illustration">
+                <div class="donation-block" id="scrollToDonate">
+                    <span class="donate-link">К ДОНАТАМ</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- ПРЕМИУМ -->
+        <section class="premium-section" id="premiumSection">
+            <h2>▼ ПРЕМИУМ ▼</h2>
+
+            <!-- Категория: Услуги админов -->
+            <div class="category-title">✦ Услуги админов ✦</div>
+            <div class="card-grid">
+                <!-- Откат инвентаря -->
+                <div class="premium-card">
+                    <div class="premium-icon">
+                        <img src="img/chest-icon.svg" alt="Откат инвентаря" class="icon-img">
+                        <span class="badge-chest">ОТКАТ ИНВЕНТАРЯ</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Откат инвентаря</h3>
+                        <p>Откатывает инвентарь</p>
+                        <div class="price-tag">49 <small>₽</small></div>
+                        <button class="btn-buy" onclick="alert('Откат инвентаря — 49₽')">Купить</button>
+                    </div>
+                </div>
+
+                <!-- Размут -->
+                <div class="premium-card">
+                    <div class="premium-icon">
+                        <img src="img/mic-icon.svg" alt="Размут" class="icon-img">
+                        <span class="badge-chest">РАЗМУТ</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Размут</h3>
+                        <p>Размутит вас</p>
+                        <div class="price-tag">39 <small>₽</small></div>
+                        <button class="btn-buy" onclick="alert('Размут — 39₽')">Купить</button>
+                    </div>
+                </div>
+
+                <!-- Разбан -->
+                <div class="premium-card">
+                    <div class="premium-icon">
+                        <img src="img/unban-icon.svg" alt="Разбан" class="icon-img">
+                        <span class="badge-chest">РАЗБАН</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Разбан</h3>
+                        <p>Разбанит вас</p>
+                        <div class="price-tag">200 <small>₽</small></div>
+                        <button class="btn-buy" onclick="alert('Разбан — 200₽')">Купить</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Категория: Проходка -->
+            <div class="category-title">✦ Проходка ✦</div>
+            <div class="card-grid">
+                <div class="premium-card">
+                    <div class="premium-icon">
+                        <img src="img/ticket-icon.svg" alt="Проходка" class="icon-img">
+                        <span class="badge-ticket">ПРОХОДКА</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Проходка</h3>
+                        <p>Даёт доступ к серверу без заявки</p>
+                        <div class="price-tag">100 <small>₽</small></div>
+                        <button class="btn-buy" onclick="alert('Проходка — 100₽')">Купить</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Категория: Кастомизация -->
+            <div class="category-title">✦ Кастомизация ✦</div>
+            <div class="card-grid">
+                <div class="premium-card">
+                    <div class="premium-icon">
+                        <img src="img/custom-sign-icon.svg" alt="Кастомный префикс" class="icon-img">
+                        <span class="badge-custom">КАСТОМНЫЙ ПРЕФИКС</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Кастомный префикс</h3>
+                        <p>Вы можете создать свой уникальный префикс на сервер</p>
+                        <div class="price-tag">99 <small>₽</small></div>
+                        <button class="btn-buy" onclick="alert('Кастомный префикс — 99₽')">Купить</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Категория: Премиум -->
+            <div class="category-title">✦ Премиум ✦</div>
+            <div class="card-grid">
+                <div class="premium-card">
+                    <div class="premium-icon">
+                        <img src="img/sword-icon.svg" alt="Премиум" class="icon-img">
+                        <img src="img/crown-icon.svg" alt="Корона" class="icon-img overlay-icon">
+                        <span class="badge-text">НА МЕСЯЦ</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Премиум на месяц</h3>
+                        <p>Выдаёт донат Премиум на 1 месяц</p>
+                        <div class="price-tag">99 <small>₽</small></div>
+                        <button class="btn-buy" onclick="alert('Премиум на месяц — 99₽')">Купить</button>
+                    </div>
+                </div>
+
+                <div class="premium-card">
+                    <div class="premium-icon">
+                        <img src="img/sword-icon.svg" alt="Премиум" class="icon-img">
+                        <img src="img/crown-icon.svg" alt="Корона" class="icon-img overlay-icon">
+                        <span class="badge-text">НА СЕЗОН</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Премиум на сезон</h3>
+                        <p>Выдаёт донат Премиум на 1 сезон</p>
+                        <div class="price-tag">199 <small>₽</small></div>
+                        <button class="btn-buy" onclick="alert('Премиум на сезон — 199₽')">Купить</button>
+                    </div>
+                </div>
+
+                <div class="premium-card">
+                    <div class="premium-icon">
+                        <img src="img/sword-icon.svg" alt="Премиум" class="icon-img">
+                        <img src="img/crown-icon.svg" alt="Корона" class="icon-img overlay-icon">
+                        <span class="badge-text">НАВСЕГДА</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Премиум навсегда</h3>
+                        <p>Выдаёт донат Премиум навсегда</p>
+                        <div class="price-tag">299 <small>₽</small></div>
+                        <button class="btn-buy" onclick="alert('Премиум навсегда — 299₽')">Купить</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Категория: Пожертвования -->
+            <div class="category-title">✦ Пожертвования ✦</div>
+            <div class="card-grid">
+                <div class="premium-card">
+                    <div class="premium-icon">
+                        <img src="img/donate-icon.svg" alt="Пожертвование" class="icon-img">
+                        <span class="badge-donate">ПОЖЕРТВОВАНИЕ</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Пожертвование создателю сайта</h3>
+                        <p>Пожертвование создателю сайта</p>
+                        <div class="price-tag">❤️ <small>сколько не жаль</small></div>
+                        <a href="https://dalink.to/water_win123" target="_blank" class="btn-buy" style="display: inline-block; text-decoration: none; text-align: center;">Пожертвовать</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ФИНАЛ -->
+        <div class="final-section">
+            <h2>⚡ стань легендой на GLIDEFIND ⚡</h2>
+        </div>
+    </div>
+
+    <script>
+        (function() {
+            // анимация появления карточек
+            document.querySelectorAll('.premium-card').forEach((card, i) => {
+                card.style.opacity = '0';
+                card.style.transform = 'scale(0.8) translateY(30px)';
+                setTimeout(() => {
+                    card.style.transition = 'all 0.6s cubic-bezier(0.23, 1, 0.32, 1)';
+                    card.style.opacity = '1';
+                    card.style.transform = 'scale(1) translateY(0)';
+                }, 150 + i * 150);
+            });
+
+            // эффект нажатия для кнопок покупки
+            document.querySelectorAll('.btn-buy:not(a)').forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    this.style.transform = 'scale(0.96)';
+                    setTimeout(() => { this.style.transform = ''; }, 120);
+                });
+            });
+
+            // скролл к донатам
+            const scrollBtn = document.getElementById('scrollToDonate');
+            const premiumSection = document.getElementById('premiumSection');
+
+            if (scrollBtn && premiumSection) {
+                scrollBtn.addEventListener('click', function(e) {
+                    premiumSection.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                });
+            }
+        })();
+    </script>
+</body>
+</html>
